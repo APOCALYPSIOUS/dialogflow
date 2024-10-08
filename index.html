@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>artefact chat bot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>ARTEFACT CHAT BOT</h1>
+
+<script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
+<df-messenger
+  location="europe-west1"
+  project-id="osn-tutogenius-799-sbx"
+  agent-id="903d3a61-0322-4e16-8e62-4589d6dafc51"
+  language-code="en"
+  max-query-length="-1"
+  style="
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  --df-messenger-button-titlebar-color: #0057e7;
+  --df-messenger-chat-background-color: #ffffff;
+  --df-messenger-user-message: #d1e7dd; /* Light teal */
+  --df-messenger-bot-message: #e2e3e5; /* Light gray */
+  --df-messenger-font-color: #000000; /* Black text */
+  --df-messenger-send-icon: #0057e7;
+  --df-messenger-input-box-color: #f9f9f9;
+  --df-messenger-font: 'Roboto', sans-serif;
+
+">
+  <df-messenger-chat-bubble
+   chat-title="chat_app_dialogflow_files">
+  </df-messenger-chat-bubble>
+ 
+</df-messenger>
+
+</body>
+</html>
